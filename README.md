@@ -1,2 +1,2 @@
 # parsefio
-Experimental learning project directed at parson FIO JSON output
+Experimental learning project directed at parsing FIO JSON output

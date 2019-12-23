@@ -24,7 +24,7 @@ func describe(f interface{}) {
 func main() {
 	textPtr := flag.String("text", "my_text", "Something texty")
 	flag.Parse()
-	fmt.Println("test flag: %s", *textPtr)
+	fmt.Println("test flag: ", *textPtr)
 	fmt.Println(flag.Args())
 	jsonFile, err := os.Open("librbd-lr02u27-J24-write-32k.fio.json")
 	if err != nil {
